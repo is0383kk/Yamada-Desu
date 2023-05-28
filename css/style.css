@@ -1,30 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* テーブル */
 table {
     width: 100%;
     border-collapse: collapse;
-  }
+}
 
-  th, td {
+th,
+td {
     padding: 8px;
     text-align: center;
-  }
+}
 
-  th {
+th {
     background-color: #000000;
     color: #ffffff;
-  }
+}
 
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #f0f0f0;
-  }
+}
 
-  tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #e5e5e5;
-  }
+}
 
-  .title {
+/* タイトル */
+.title {
     width: 500px;
-  }
+}
 
-  body {
+/* ヘッダー */
+header {
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #838383;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+header .headline {
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.nav-list {
+    line-height: 100px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* body */
+body {
     background: linear-gradient(to bottom, #e1f5fe, #b3e5fc);
-  }
+}
