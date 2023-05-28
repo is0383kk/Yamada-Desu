@@ -5,17 +5,26 @@ table {
 
   th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
   }
 
   th {
-    background-color: #f2f2f2;
+    background-color: #000000;
+    color: #ffffff;
   }
 
   tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #e5e5e5;
   }
 
   .title {
     width: 500px;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #e1f5fe, #b3e5fc);
   }
