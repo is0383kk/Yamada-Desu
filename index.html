@@ -21,9 +21,9 @@
 
   <table>
     <tr>
-      <th class="title">山田です</th>
-      <th>再生</th>
-      <th>ダウンロード</th>
+      <th class="title">いろいろな山田です</th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
       <td>山田です（女）</td>
@@ -105,9 +105,21 @@
       <td><button onclick="playAudio('mp3/NotYMDButTNK.mp3')">再生</button></td>
       <td><a href="mp3/NotYMDButTNK.mp3" download>ダウンロード</a></td>
     </tr>
+    <tr>
+      <td>I am Yamada（Male）</td>
+      <td><button onclick="playAudio('mp3/YMDEng001.mp3')">再生</button></td>
+      <td><a href="mp3/YMDEng001.mp3" download>ダウンロード</a></td>
+    </tr>
+    <tr>
+      <td>I am Yamada（Female）</td>
+      <td><button onclick="playAudio('mp3/YMDEng002.mp3')">再生</button></td>
+      <td><a href="mp3/YMDEng002.mp3" download>ダウンロード</a></td>
+    </tr>
   </table>
 
-  <audio id="audioPlayer" controls>違うブラウザで試してください。</audio>
+  <div class="audioContainer">
+    <audio id="audioPlayer" controls>違うブラウザで試してください。</audio>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
